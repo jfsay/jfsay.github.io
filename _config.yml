@@ -3,5 +3,3 @@ plugins:
   - jekyll-feed      # 可选：启用 RSS 订阅
 title: 静风说   # 自定义网站标题
 description: https://www.jfsay.com # 自定义描述
-exclude:
-  - "_posts/**/images/"  # 忽略所有文章目录下的图片

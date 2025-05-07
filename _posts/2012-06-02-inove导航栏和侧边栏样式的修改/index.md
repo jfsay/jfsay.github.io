@@ -1,0 +1,199 @@
+---
+title: "iNove导航栏和侧边栏样式的修改"
+date: 2012-06-02
+categories: 
+  - "website"
+tags: 
+  - "inove"
+  - "侧边栏"
+  - "导航栏"
+---
+
+此次iNove导航栏的修改是完全参照WordPress的经典主题[Twenty Eleven](http://wordpress.org/extend/themes/twentyeleven "2011")，貌似最近导航栏流行的都是黑底白字的样式，这不得不说谷歌老大是互联网行业的风向标。
+
+先看一下更改后的样式效果：
+
+![inove_change](images/7318179540_ab81b714af_z.jpg)  
+
+<!--more-->
+
+  
+修改的文件自然是博客主题的层叠样式表文档（style.css），导航栏控制代码是：
+
+```
+/* navigation START */
+#navigation {
+background:#FFF;
+border-bottom:1px solid #A6A6A6;
+}
+#menus li {
+display:inline;
+list-style:none;
+}
+#menus li a {
+background:transparent url(img/menu.gif) no-repeat;
+display:block;
+color:#382E1F;
+height:31px;
+line-height:31px;
+padding:0 20px;
+margin-left:-10px;
+text-decoration:none;
+font-size:11px;
+float:left;
+z-index:1;
+}
+#menus li a:hover,
+#menus li a.current {
+background-position:0 -31px;
+}
+#menus li.current_page_item a,
+#menus li.current-cat a {
+background-position:0 -62px;
+}
+#menus li a.home {
+background-position:0 -93px;
+width:45px;
+padding:0;
+margin-left:0;
+text-indent:-999em;
+}
+#menus li a.home:hover {
+background-position:0 -124px;
+}
+#menus li.current_page_item a.home {
+background-position:0 -155px;
+}
+#menus li a.lastmenu:hover {
+background-position:0 0;
+cursor:default;
+}
+#searchbox {
+background: url(img/searchbox.gif) no-repeat;
+width:209px;
+height:21px;
+display:block;
+float:right;
+margin-top:4px;
+margin-right:10px !important;
+margin-right:5px;
+padding:3px 2px;
+}
+#searchbox .textfield {
+background:none;
+border:0px;
+width:185px;
+float:left;
+}
+#searchbox .button {
+background:none;
+border:0px;
+width:18px;
+height:18px;
+cursor:pointer;
+float:left;
+margin-top:1px;
+}
+#searchbox .searchtip {
+color:#999;
+}
+/* navigation END */
+```
+
+只需把Twenty Eleven的导航栏代码稍作修改，替换以上的代码即可，如下所示：
+
+```
+/* navigation START */
+#navigation {
+	background:#181818;
+	border-bottom:1px solid #A6A6A6;
+}
+#menus li {
+	display:inline;
+	list-style:none;	
+}
+#menus li a {
+	color: #eee;
+	display:block;		
+	line-height: 3.333em;
+	padding: 0 1.2125em;
+	text-decoration:none;
+	font-size:11px;
+	float:left;
+	z-index:1;	
+}
+#menus li a:hover, 
+#menus li a.current {
+	background: #f9f9f9; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* 
+Older webkit syntax */
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	color: #373737;
+}
+#menus li.current_page_item a, 
+#menus li.current-cat a {
+	font-weight: bold;
+}
+#searchbox {
+background: url(img/searchbox.gif) no-repeat;
+width:209px;
+height:21px;
+display:block;
+float:right;
+margin-top:8px;
+margin-right:10px !important;
+margin-right:5px;
+padding:3px 2px;
+}
+#searchbox .textfield {
+background:none;
+border:0px;
+width:185px;
+float:left;
+}
+#searchbox .button {
+background:none;
+border:0px;
+width:18px;
+height:18px;
+cursor:pointer;
+float:left;
+margin-top:1px;
+}
+#searchbox .searchtip {
+color:#999;
+}
+/* navigation END */
+```
+
+默认的侧边栏widget的分割是图片实现的分割线，代码如下：
+
+```
+#centersidebar,
+#northsidebar .widget,
+#southsidebar .widget {
+background:url(img/widgetsep.png) bottom no-repeat;
+padding:10px 15px 16px;
+}
+```
+
+我把这条分割线去掉，然后用widget的标题加底色来分割，代码如下：
+
+```
+#centersidebar,
+#northsidebar .widget,
+#southsidebar .widget {
+padding:4px 15px 6px;
+}
+#centersidebar .widget h3,
+#northsidebar .widget h3,
+#southsidebar .widget h3 {
+background: #E1E7E9;
+margin: 0 -10px;
+padding: 5px 10px;
+font-size: 11px;
+border-bottom: 1px solid white;
+}
+```

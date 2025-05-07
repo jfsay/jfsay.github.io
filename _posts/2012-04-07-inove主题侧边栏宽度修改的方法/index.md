@@ -1,0 +1,77 @@
+---
+title: "iNove主题侧边栏宽度修改的方法"
+date: 2012-04-07
+categories: 
+  - "website"
+tags: 
+  - "inove"
+  - "wordpress"
+---
+
+iNove是一款两栏的WordPress主题，使用者众多。由于其是固定宽度，所以在放置广告时多有不便。为了使右边侧边栏可以放置广告投放多、展示效果好、用户偏向点击的300\*250和160\*600的广告，需要增加右边侧边栏的宽度（减少右边侧边栏的宽度类推）。
+
+**改变前：**默认页面宽度为936px，右边侧边栏为300px；
+
+**改变后：**页面宽度为960px，右边侧边栏为324px；
+
+**前后相差：**24px.
+
+以下的数据修改都是基于**24px**来操作的。
+
+![iNove](images/6906873620_a6f4dc4a70_z.jpg)
+
+1、样式表（style.css）
+
+页面宽度：936px改为960px.
+
+```
+#container {
+    margin:0 auto;
+    width:936px;
+}
+```
+
+更改为：
+
+```
+#container {
+    margin:0 auto;
+    width:960px;
+}
+```
+
+右边侧边栏宽度：300px改为324px.
+
+```
+#sidebar {
+    background:#F7F7F7 url(img/sidebar_shadow.gif) top repeat-x;
+    width:300px;
+    float:right;
+    font-size:95%;
+    line-height:145%;
+    overflow:hidden;
+    padding-top:8px;
+}
+```
+
+更改为：
+
+```
+#sidebar {
+    background:#F7F7F7 url(img/sidebar_shadow.gif) top repeat-x;
+    width:324px;
+    float:right;
+    font-size:95%;
+    line-height:145%;
+    overflow:hidden;
+    padding-top:8px;
+}
+```
+
+2、图片（img）
+
+header.jpg、footer.jpg宽度：936px改为960px.
+
+sidesep.gif宽度：301px改为325px.
+
+注：iNove两栏之间的分隔线是由sidesep.gif决定的。

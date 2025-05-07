@@ -1,0 +1,87 @@
+---
+title: "倾听内心，追随真爱——《给朱丽叶的信》"
+date: 2010-10-12
+categories: 
+  - "movies"
+tags: 
+  - "朱丽叶"
+  - "爱情"
+---
+
+《给朱丽叶的信》这部电影下载到电脑里有段时间了，今晚和室友一起看了，很浪漫，很感动，后来当Claire读出Sophie代表Juliet给她的回信时，我的眼泪忍不住就出来了。这就是真爱的力量，很美。
+
+![phpZQ22ap](images/5074686879_b7dceff30a_z.jpg)
+
+故事开始于女主公Sophie和已经订婚的男友Victor ，从纽约到意大利度“婚前蜜月”。 Victor一门心思全在自己热衷的食物制作上面，表面上对女友照顾与呵护，其实他根本就没有认真倾听过Sophie的想法，没有注意到她的心情变化。几天的蜜月中，第一天Victor带她去了葡萄庄园和奶酪地窖，但是他并不了解这一切对于Sophie来说并不是她想要的蜜月之旅，既然没有意识到，那也不会去征求她的意见了，何况他的耳朵油盐不进。
+
+之后就分头行动，Victor忙他的餐馆招商，而Sophie就在街上闲逛，寻点乐趣，来到了朱丽叶的雕像前，这里有很多情感失意、遇到困难的人给朱丽叶写信来诉说自己的爱情挫折，希望朱丽叶可以给他们答案。
+
+![phpx7p7cH](images/5075266136_3206d31fbf_z.jpg)
+
+正好有四个不同年龄与经历的女人来扮演Juliet的秘书，代替Juliet来解答那些人的疑问与痛苦。
+
+Sophie一来是事件调查员出身，爱好写作；二来也无事可做。便加入了她们的行列。Sophie发现了一封五十年前的信，当时15岁的Claire由于家庭阻碍而被迫离开了她心爱的Lorenzo，她不知道该怎么办才好。
+
+Sophie给她回了这样一封信：
+
+> Dear Claire, "what" and "If" are two words as non-threatening as words can be. But put them together, side-by-side and they have the power to haunt you for the rest of your life. "What if?" "What if?" "What if?" I don't know how your story ended but if what you felt then was "true love", then It's never to late. If it were true then, why wouldn't it be true now? You need only the courage to follow your heart. I don't know what a love like Juliet's feels like; a love to leave loved ones fore, a love to cross oceans for. But I'd like to believe if i ever were to feel it, that I'd have the courage to seize it. And Clarie, if you didn't, I hope one day that you will. All my love, Juliet
+
+中文翻译如下：
+
+> 亲爱的Claire：
+> 
+> "what"和"if"是最不相关的两个词语，但如果把他们放在一起，紧紧挨着，它们便有了强大的力量，在你的余生之中缠绕着你，what if....? what if....? what if....? 我不知道你的故事将如何结束，但如果你心中牵挂的是真爱，那么你永远都不会太迟。如果这曾是真爱，它现在依然是，你需要的仅仅是勇气，跟随你的心。我不知道Juliet感受到的爱是怎样的，这种爱让你离开爱过的人，这种爱让你赴汤蹈火，但我愿意相信，如果我能感受到这样的爱，我就会鼓起勇气将其紧紧握住。 Claire，如果你曾经放手，我希望你可以在某天重新牵手。
+> 
+> 致以我所有的爱，
+> 
+> Juliet
+
+因为这封信，65岁的Claire鼓起勇气来寻找她的挚爱，姓名同是Lorenzo的人有74个，她们在地图上锁定范围以后就开始了寻找。
+
+![phpsFlF92](images/5075272958_09e6b2bed0_z.jpg)
+
+可惜一个也不是。本来打算告一段落的追寻，不经意间，却在路旁的葡萄庄园了遇见。
+
+![phpJlvMzQ](images/5075267782_1eb9dc1a2c_z.jpg)
+
+很欣慰的是，她亲爱的Lorenzo依旧健朗性感、魅力四射。没有去世，没有老年痴呆，没有失去健康，真好。跨越五十年的恋人终于走到了一起，这两对老人算是欢喜了，可是Claire的孙子Charlie就没有他的奶奶那样的甜蜜了。
+
+在寻找Lorenzo的过程中，Lorenzo与Sophie坠入爱河。两情相悦的爱恋慢慢的侵入了他们的内心，这是很自然的爱情。Lorenzo会倾听Sophie的话，与她交谈，诉说彼此的想法，虽然有冲突，但是也很投机。
+
+可是Sophie有一个已经订婚的男友。
+
+Claire告诉孙子要听从自己的内心，这个世界上Sophie只有一个，不要想她一样错过五十年再苦苦寻找。
+
+爱情就是这样，有时候一个眼神，一个动作，就会彼此相恋，这真是一件很奇妙的事情。
+
+Sophie和男友分手后，误以为Charlie与原来的女友复合，伤心不已，就像Charlie看见Sophie和Victor在阳台上亲热而离去时的痛苦一样。相爱而无法再一起，真是一场悲剧。
+
+结局是皆大欢喜的，Charlie身边的那个人其实是她的表妹。两个人在相似于朱丽叶的阳台场景下，互诉衷肠。
+
+![phplUZA45](images/5074665377_a868db322d_z.jpg)
+
+这样都好了，一对老情侣和一对小情侣都欢天喜地。
+
+我在想，如果这个故事在Claire念完那封信以后就结尾，以悲剧收场，带给我的情感波动的延续期会比喜剧要长得多，深得多。悲剧更有艺术感染力的。
+
+大团圆的收场，大家一场欢喜，观众的感情会轻松很多，不会太累。
+
+电影中诠释的追寻真爱的故事很美，也很感人，但是我个人认为却不怎么现实。这种勇气几人会有，周边的人会像电影中的Sophie那样支持吗？
+
+在物质利益层层包裹下，狭小的内心之中，有存放真爱的地方吗？
+
+我希望会有，唯有这样，我们才会读懂爱情的奇妙吧。我相信会有，只是怀疑它存活的时间不长。
+
+最后，我想和大家分享一下影片开始出现的几幅亲吻的画面。爱情真的可以如此让人动心，如此美妙。
+
+![php8PdekY](images/5075279316_d205b58585_z.jpg)
+
+![phpj7CYNf](images/5075282168_882db94d45_z.jpg)
+
+![phps5X9Vh](images/5075283502_52056e4d4e_z.jpg)
+
+![phpeeVfYZ](images/5074697131_6c97bd5039_z.jpg)
+
+这张小屁孩的kiss不知道能否算作love，权当娱乐吧。
+
+![phpdv8lTK](images/5075290838_b301177b11_z.jpg)

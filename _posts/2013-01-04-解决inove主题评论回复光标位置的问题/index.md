@@ -1,0 +1,51 @@
+---
+title: "解决iNove主题评论的回复功能光标位置不正确的问题"
+date: 2013-01-04
+categories: 
+  - "website"
+tags: 
+  - "inove"
+  - "光标"
+  - "回复"
+  - "评论"
+---
+
+iNove主题没有采用传统的评论嵌套回复的样式，而是使用鼠标悬停显示原始评论的方式，这样做的[好处](http://www.jfsay.com/archives/628.html "弃用评论留言的嵌套回复功能")是可以使得评论看起来比较规整而且评论之间不受父子级的限制。
+
+可是iNove的回复功能存在光标不跟随始终保持在@user的最前面的问题。具体描述为：当点击“回复”之后，鼠标的光标定位在@user的前面，而不是在@user的后面或者下一行。如下图所示：
+
+![@user1](images/8345075715_76621dc06f_z.jpg)
+
+控制“回复”功能的代码是comment.js文件（在主题目录下的js中），通过查看代码可以知道作者的本意是把光标放在@user的下一行。我一开始以为是这段JS的问题，难道是JS不换行的原因，但事实是它没有问题。
+
+```
+var insertStr = '<a href="#' + commentId + '">@' + author.replace(/\t|\n|\r\n/g, "") + ' </a> \n';
+```
+
+但是点击回复光标在@user的下一行的功能没有实现，而“引用”的功能却没有问题，仔细观察可以发现“回复”和“引用”的功能大同小异，对比代码最终找到问题出在field.focus()上（控制光标位置的聚焦函数）。
+
+解决的方法是在function appendReply(insertStr, commentBox)函数中找到以下的代码，添加俩field.focus()函数：
+
+```
+if (field.value.replace(/\s|\t|\n/g, "") == '') {		
+		field.value = insertStr;
+	} else {		
+		field.value = field.value.replace(/[\n]*$/g, "") + '\n\n' + insertStr;
+	}
+```
+
+修改成如下的代码：
+
+```
+if (field.value.replace(/\s|\t|\n/g, "") == '') {
+		field.focus();
+		field.value = insertStr;
+	} else {
+		field.focus();
+		field.value = field.value.replace(/[\n]*$/g, "") + '\n\n' + insertStr;
+	}
+```
+
+最终的效果如下图所示：
+
+![@user2](images/8346131508_75ac50d0ec_z.jpg)

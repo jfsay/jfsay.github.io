@@ -1,0 +1,46 @@
+---
+title: "《我的第一本书》PPT"
+date: 2012-07-09
+categories: 
+  - "essay"
+tags: 
+  - "课件"
+---
+
+上午整理电脑资料，看到hillway为我制作的幻灯片，在我求职的道路上，hillway也付出了很多辛苦的汗水，甚至比他自己找工作还要费心费力。
+
+现在也用不上了，贴出来做个纪念吧。谢谢hillway，谢谢一路走来的日子。
+
+![1](images/7540616278_9c1d86daee_z.jpg)
+
+<!--more-->
+
+![2](images/7540662386_878b5232cf_z.jpg)
+
+![3](images/7540621446_97932c43bd_z.jpg)
+
+![4](images/7540621852_e3eb96c854_z.jpg)
+
+![5](images/7540613406_0e4a16f778_z.jpg)
+
+![6](images/7540614232_6f03a56631_z.jpg)
+
+![7](images/7540634018_5e160a12ee_z.jpg)
+
+![8](images/7540634368_3720abfd79_z.jpg)
+
+![9](images/7540635136_9a6c6e881a_z.jpg)
+
+![10](images/7540635634_cf8fd56b15_z.jpg)
+
+![11](images/7540633110_db5af2878d_z.jpg)
+
+![12](images/7540640100_0389a2e89a_z.jpg)
+
+![13](images/7540640808_b0b557c3a7_z.jpg)
+
+![14](images/7540641238_2f0b1f02ff_z.jpg)
+
+![15](images/7540639838_f602aab459_z.jpg)
+
+《我的第一本书》的PPT下载地址：[我的第一本书.ppt](https://docs.google.com/file/d/0BylPy_4csyrXT3UwcVFFWEdPcmM/edit?usp=sharing "我的第一本书")

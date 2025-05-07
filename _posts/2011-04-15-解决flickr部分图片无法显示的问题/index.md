@@ -1,0 +1,23 @@
+---
+title: "解决Flickr部分图片无法显示的问题"
+date: 2011-04-15
+categories: 
+  - "website"
+tags: 
+  - "flickr"
+  - "插件"
+---
+
+[静风博客](https://www.jfsay.com)中的图片都是外链到Flickr上的，今天发现部分图片不能访问了，赶紧上[Flickr测试页面](http://www.flickr.com/help/test)查看，原来Farm3和Farm5服务器出故障了（鲜红的×），使得放在这两个服务器上的图片无法访问，如果你身在国内，首先应该想到是什么原因了。
+
+![Flickr 測試頁面](images/5621319206_6a80dd1baf_z.jpg)
+
+值得庆幸的是它们并没有那么狠，只是在域名解析上动了手脚。解决的思路是访问此域名对应的IP地址即可。针对Farm3服务器的IP地址取得方法是，查看绿色对勾图片属性，得到它的链接地址为：http://ac4.farm3.staticflickr.com/2001/temp/test.png?ts=1302846427
+
+Ping ac4.farm3.staticflickr.com得到IP（XX.GG.FF.WW）即为可访问的地址。
+
+对于个人用户，添加XX.GG.FF.WW farm3.staticflickr.com到hosts文件即可。
+
+对于WordPress的博主，可以使用Jay Access Flickr插件，由于插件中的部分IP可能失效，作者又没有及时更新，我们可以自己动手来修改。
+
+打开文件[jay\_access\_flickr.php](https://www.jfsay.com/wp-admin/plugin-editor.php?file=jay-access-flickr/jay_access_flickr.php&plugin=jay-access-flickr/jay_access_flickr.php)，找到$exchangeDest = array( );，修改对应的图片服务器的IP地址即可。
